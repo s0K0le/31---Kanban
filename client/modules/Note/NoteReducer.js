@@ -10,7 +10,7 @@ import {
 import omit from 'lodash/omit';
 
 // Initial State
-const initialState = [];
+const initialState = {};
 
 export default function notes(state = initialState, action) {
   switch (action.type) {

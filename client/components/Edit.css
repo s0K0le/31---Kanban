@@ -1,0 +1,10 @@
+/* Edit styles */
+.delete {
+    display: inline-block;
+    width: 15px;
+}
+
+.value {
+    display: inline-block;
+    width: 135px;
+}

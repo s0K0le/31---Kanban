@@ -1,1 +1,28 @@
 /* Kanban styles */
+.kanban {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 800;
+  padding: 5px;
+  color: navy;
+  text-transform: capitalize;
+}
+
+.AddLane {
+  color: #FFF;
+  background: #03A9F4;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lanes {
+    color: black;
+}
