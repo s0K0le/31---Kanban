@@ -3,9 +3,6 @@ import * as NoteController from '../controllers/note.controller';
 
 const router = new Router();
 
-// Get all Notes
-router.route('/notes').get(NoteController.getNotes);
-
 // Add a new Note
 router.route('/notes').post(NoteController.addNote);
 
